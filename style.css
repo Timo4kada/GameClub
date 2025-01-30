@@ -1,124 +1,53 @@
-*{
-    margin:0;
+@font-face{
+    font-family: Tele;
+    src: url(Teletactile.ttf);
 }
 body{
-    background-color: #3B3B3B;
+    background-image: url(https://i.ytimg.com/vi/ln3hTPZkzfo/maxresdefault.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100vh;
     background-attachment: fixed;
+    margin: 0;
+}
+header,footer{
+    display: flex;
+    background-color: rgba(34, 139, 34);
+    font-family: Tele;
+    align-items: center;
+    padding: 15px 50px;
 }
 
-.empty{
-    background-color: #3B3B3B;
-    padding: 15px;
-    margin: auto;
-    width: 990px;
-    height: 100px;
+header a {
+    color: inherit;
+    font-size: 26px;
 }
 
-
-
-h1{
-    color:blue;
-}
-
-.color{
-    color:blue;
-}
-
-header{
-    position: fixed;
-    padding: 10px 5%;
-    background-color:#272727;
-    width: 100%;
-}
-header>*{
-    display: inline-block;
-    width:450px;
-}
-.pustota{
-    width:30%;
-}
-header a{
+a {
     text-decoration: none;
-    color: black;
-    margin:0 10px;
 }
-.banner{
-    padding: 20% 5%;
-    color: white;
-    font-size: 30px;
+
+img{
+    width: 70px;
+    margin-right: 25px;
 }
-.post{
-    padding: 10px 5%;
+h1,h2{
+    margin: 0;
     text-align: center;
-    background-color:white;
 }
-.post>*{
-    display: inline-block;
-    width:450px;
-    font-size:30px;
-    vertical-align: middle;
+main{
+    margin:50px 20%;
+    background-color: rgba(34, 139, 34);
+    border-radius: 20px;
+    padding: 50px;
+    min-height: calc(100vh - 92px - 80px - 100px);
 }
-.razryv{
-    height:700px;
+article{
+    background-color: rgba(50, 205, 50);
+    padding: 25px;
+    border-radius: 20px;
+    margin:20px;
 }
-#final{
-    padding:15% 30%;
-    background-image: url(pattern.jpg);
-    background-attachment: fixed;
+iframe{
+    width: 100%;
+    height: 50vh;
 }
-#final>div{
-    padding: 10px;
-    background-color: white;
-    font-size:30px;
-    text-align: center;
-    border: 4px solid black;
-}
-footer{
-    background-color:black;
-    padding:10px 0;
-    text-align: center;
-    color:white;
-}
-#sponsors{
-    padding:15% 30%;
-    background-color: black;
-    background-attachment: fixed;
-}
-.p2{
-    color: white;
-}
-
-
-.test{
-    background-color:#272727;
-    padding: 15px;
-    width: 60px;
-    height: 900px;
-    position: fixed;
-    margin-right: 100%;
-    margin-top: 55px;
-}
-
-    
-
-.image-button2 {
-    
-    width: 100px;
-    height: 100px;
-    background-image: url('buttom.png');
-    background-size: cover;
-    background-color: #272727;
-  }
-
-
-
-.image-button {
-    width: 35px;
-    height: 35px;
-    border: none;
-    background-image: url('buttom.png');
-    background-size: cover;
-    background-color: #272727;
-  }
