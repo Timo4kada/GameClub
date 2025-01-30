@@ -1,0 +1,124 @@
+*{
+    margin:0;
+}
+body{
+    background-color: #3B3B3B;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.empty{
+    background-color: #3B3B3B;
+    padding: 15px;
+    margin: auto;
+    width: 990px;
+    height: 100px;
+}
+
+
+
+h1{
+    color:blue;
+}
+
+.color{
+    color:blue;
+}
+
+header{
+    position: fixed;
+    padding: 10px 5%;
+    background-color:#272727;
+    width: 100%;
+}
+header>*{
+    display: inline-block;
+    width:450px;
+}
+.pustota{
+    width:30%;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    margin:0 10px;
+}
+.banner{
+    padding: 20% 5%;
+    color: white;
+    font-size: 30px;
+}
+.post{
+    padding: 10px 5%;
+    text-align: center;
+    background-color:white;
+}
+.post>*{
+    display: inline-block;
+    width:450px;
+    font-size:30px;
+    vertical-align: middle;
+}
+.razryv{
+    height:700px;
+}
+#final{
+    padding:15% 30%;
+    background-image: url(pattern.jpg);
+    background-attachment: fixed;
+}
+#final>div{
+    padding: 10px;
+    background-color: white;
+    font-size:30px;
+    text-align: center;
+    border: 4px solid black;
+}
+footer{
+    background-color:black;
+    padding:10px 0;
+    text-align: center;
+    color:white;
+}
+#sponsors{
+    padding:15% 30%;
+    background-color: black;
+    background-attachment: fixed;
+}
+.p2{
+    color: white;
+}
+
+
+.test{
+    background-color:#272727;
+    padding: 15px;
+    width: 60px;
+    height: 900px;
+    position: fixed;
+    margin-right: 100%;
+    margin-top: 55px;
+}
+
+    
+
+.image-button2 {
+    
+    width: 100px;
+    height: 100px;
+    background-image: url('buttom.png');
+    background-size: cover;
+    background-color: #272727;
+  }
+
+
+
+.image-button {
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-image: url('buttom.png');
+    background-size: cover;
+    background-color: #272727;
+  }
